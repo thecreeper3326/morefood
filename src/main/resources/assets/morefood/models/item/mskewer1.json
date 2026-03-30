@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "morefood:item/meat_skewer_raw1"
+  }
+}

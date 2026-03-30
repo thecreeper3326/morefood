@@ -1,0 +1,33 @@
+{
+  "parent": "morefood:salt",
+  "display": {
+    "icon": {
+      "id": "morefood:cooked_grand_roast"
+    },
+    "title": "Delicious!",
+    "description": "Cook grand roast with salt, meats, and a carrot",
+    "background": "minecraft:block/dark_oak_trapdoor",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cook1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:cookgroast"
+      }
+    },"smoke1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:smokegroast"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cook1","smoke1"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

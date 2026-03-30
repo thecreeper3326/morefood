@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Meat Skewers",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:beef",
+      "minecraft:porkchop"
+    ],
+    [
+      "minecraft:beef",
+      "minecraft:porkchop"
+    ],
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "morefood:meat_skewer_strong"
+  }
+}

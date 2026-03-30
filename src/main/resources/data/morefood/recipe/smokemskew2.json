@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "group": "Meat Skewers",
+  "category": "food",
+  "ingredient": "morefood:meat_skewer_med",
+  "result": {
+    "id": "morefood:cooked_meat_skewer_med"
+  }
+}

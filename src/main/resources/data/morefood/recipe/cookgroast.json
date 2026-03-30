@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": "morefood:grand_roast",
+  "result": {
+    "id": "morefood:cooked_grand_roast"
+
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:beef"
+    ],
+    [
+      "minecraft:porkchop"
+    ],
+    "minecraft:carrot","morefood:salt"
+  ],
+  "result": {
+    "id": "morefood:grand_roast"
+  }
+}

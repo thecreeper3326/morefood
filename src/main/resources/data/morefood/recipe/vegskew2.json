@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Vegitable Skewers",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:carrot"
+    ],
+    [
+      "minecraft:potato"
+    ],
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "morefood:veg_skewer"
+  }
+}

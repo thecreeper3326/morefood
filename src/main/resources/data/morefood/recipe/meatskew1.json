@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Meat Skewers",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:chicken",
+      "minecraft:mutton"
+    ],
+    [
+      "minecraft:chicken",
+      "minecraft:mutton"
+    ],
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "morefood:meat_skewer_weak"
+  }
+}

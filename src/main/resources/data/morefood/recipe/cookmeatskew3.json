@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "group": "Meat Skewers",
+  "category": "food",
+  "ingredient": "morefood:meat_skewer_strong",
+  "result": {
+    "id": "morefood:cooked_meat_skewer_strong"
+  }
+}

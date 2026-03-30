@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "category": "misc",
+  "pattern": [
+    "ggg",
+    "gcg",
+    "ggg"
+  ],
+  "key": {
+    "g": "minecraft:gold_nugget",
+    "c": "morefood:cooked_grand_roast"
+  },
+  "result": {
+    "id": "morefood:golden_roast",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "duration": 60
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

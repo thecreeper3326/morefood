@@ -1,0 +1,28 @@
+{
+  "parent": "morefood:root",
+  "display": {
+
+    "icon": {
+      "id": "morefood:cooked_veg_skewer"
+    },
+    "title": "Get roasted",
+    "description": "Cook a vegetable skewer with a stick, a potato, and a carrot",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weak": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:cookvskew2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weak"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

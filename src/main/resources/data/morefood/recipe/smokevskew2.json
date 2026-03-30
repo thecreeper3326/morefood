@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "group": "Vegetable Skewers",
+  "category": "food",
+  "ingredient": "morefood:veg_skewer",
+  "result": {
+    "id": "morefood:cooked_veg_skewer"
+  }
+}

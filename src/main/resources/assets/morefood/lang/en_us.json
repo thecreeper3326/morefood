@@ -1,0 +1,23 @@
+{
+"item.morefood.chocolate": "Chocolate Bar",
+"item.morefood.golden_chocolate": "Golden Chocolate Bar",
+"item.morefood.meat_skewer_weak": "Raw meat skewer",
+"item.morefood.meat_skewer_med": "Raw meat skewer",
+"item.morefood.meat_skewer_strong": "Raw meat skewer",
+"item.morefood.cooked_meat_skewer_weak": "Cooked meat skewer",
+"item.morefood.cooked_meat_skewer_med": "Cooked meat skewer",
+"item.morefood.cooked_meat_skewer_strong": "Cooked meat skewer",
+"itemgroup.morefood.morefood_items": "MoreFood",
+"item.morefood.veg_skewer": "Vegetable skewer",
+"item.morefood.cooked_veg_skewer": "Cooked vegetable skewer",
+"item.morefood.cooked_carrot": "Cooked carrot",
+"item.morefood.salt": "Salt",
+"item.morefood.grand_roast": "Raw grand roast",
+"item.morefood.cooked_grand_roast": "Cooked grand roast",
+"item.morefood.golden_roast": "Golden roast",
+"item.morefood.cooked_apple": "Cooked apple",
+"item.morefood.chocolate_apple": "Chocolate apple",
+"itemGroup.morefood": "MoreFood",
+"item.morefood.sandwich": "Sandwich",
+"item.null.null": "null" 
+} 

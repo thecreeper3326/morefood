@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Meat Skewers",
+  "category": "misc",
+  "ingredients": [
+    "morefood:salt","morefood:cooked_meat_skewer_med"
+  ],
+  "result": {
+    "id": "morefood:cooked_meat_skewer_med",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 14,
+        "saturation": 1.4
+      },
+      "minecraft:item_name": "Seasoned meat skewer"
+    }
+  }
+}

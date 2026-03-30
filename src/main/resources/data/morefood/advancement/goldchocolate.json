@@ -1,0 +1,28 @@
+{
+  "parent": "morefood:chocolate",
+  "display": {
+
+    "icon": {
+      "id": "morefood:golden_chocolate"
+    },
+    "title": "New and improved!",
+    "description": "Craft a golden chocoalate bar",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weak": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:golden_chocolate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weak"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

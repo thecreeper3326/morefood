@@ -1,0 +1,32 @@
+{
+  "parent": "morefood:root",
+  "display": {
+
+    "icon": {
+      "id": "morefood:salt"
+    },
+    "title": "Sodium",
+    "description": "Obtain salt from granite, andesite, or diorite",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "morefood:salt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "salt"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

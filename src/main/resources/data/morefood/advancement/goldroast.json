@@ -1,0 +1,27 @@
+{
+  "parent": "morefood:groast",
+  "display": {
+    "icon": {
+      "id": "morefood:golden_roast"
+    },
+    "title": "Feast of Midas",
+    "description": "Craft a golden roast",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cook1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:goldroast"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cook1"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

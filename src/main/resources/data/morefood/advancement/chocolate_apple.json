@@ -1,0 +1,28 @@
+{
+  "parent": "morefood:chocolate",
+  "display": {
+
+    "icon": {
+      "id": "morefood:chocolate_apple"
+    },
+    "title": "A chocolate apple a day...",
+    "description": "Craft a chocoalate apple",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weak": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:chocolate_apple"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weak"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

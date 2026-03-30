@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "",
+  "category": "food",
+  "ingredient": "minecraft:carrot",
+  "result": {
+    "id": "morefood:cooked_carrot"
+
+  }
+}

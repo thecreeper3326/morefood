@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "morefood:item/goldroast"
+  },
+  "food": {
+    "nutrition": 6,
+    "saturation": 0.6,
+    "effects": [
+      {
+        "effect": "minecraft:regeneration",
+        "duration": 200,
+        "amplifier": 0,
+        "probability": 1.0
+      }
+    ]
+  }
+
+}

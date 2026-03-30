@@ -1,0 +1,59 @@
+{
+  "parent": "morefood:cookvskewer",
+  "display": {
+    "icon": {
+      "id": "morefood:cooked_meat_skewer_med"
+    },
+    "title": "Well done!",
+    "description": "Cook a meat skewer of each strength using a stick and two pieces of meat",
+    "background": "minecraft:block/dark_oak_trapdoor",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cook1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:cookmeatskew1"
+      }
+    },"smoke1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:smokemskew1"
+      }
+    },"cook2": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:cookmeatskew2"
+      }
+    },"smoke2": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:smokemskew2"
+      }
+    },"cook3": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:cookmeatskew3"
+      }
+    },"smoke3": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:smokemskew3"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cook1","smoke1"
+    ],
+    [
+      "cook2","smoke2"
+    ],
+    [
+      "cook3","smoke3"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

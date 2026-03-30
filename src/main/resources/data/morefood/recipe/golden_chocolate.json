@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "ggg",
+    "gcg",
+    "ggg"
+  ],
+  "key": {
+    "g": "minecraft:gold_nugget",
+    "c": "morefood:chocolate"
+  },
+  "result": {
+    "id": "morefood:golden_chocolate",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "morefood:root",
+  "display": {
+
+    "icon": {
+      "id": "morefood:chocolate"
+    },
+    "title": "We want chocolate!",
+    "description": "Craft a chocoalate bar from cocoa and sugar",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weak": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefood:chocolate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weak"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
