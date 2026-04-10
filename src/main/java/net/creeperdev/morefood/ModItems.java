@@ -220,7 +220,8 @@ public class ModItems {
                 output.accept(ModItems.CHOCOLATE_APPLE);
 
                 output.accept(ModItems.SANDWICH);
-
+                output.accept(ModItems.KELP_FISH);
+                output.accept(ModItems.COOKED_KELP_FISH);
             })
             .build();
 

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "",
+  "category": "food",
+  "ingredient": "morefood:kelp_fish",
+  "result": {
+    "id": "morefood:cooked_kelp_fish"
+
+  }
+}
