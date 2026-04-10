@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "minecraft:kelp","minecraft:bread"
+  ],
+  "result": {
+    "id": "morefood:sandwich",
+    "count": 1
+  }
+}

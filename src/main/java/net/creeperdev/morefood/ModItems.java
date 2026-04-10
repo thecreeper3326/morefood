@@ -166,7 +166,21 @@ public class ModItems {
     ));
     public static final Item SANDWICH = register("sandwich", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
+                    .nutrition(10)
+                    .saturationModifier(0.8f)
+                    .build()
+
+    ));
+    public static final Item KELP_FISH = register("kelp_fish", Item::new, new Item.Properties().food(
+            new FoodProperties.Builder()
+                    .nutrition(6)
+                    .saturationModifier(0.2f)
+                    .build()
+
+    ));
+    public static final Item COOKED_KELP_FISH = register("cooked_kelp_fish", Item::new, new Item.Properties().food(
+            new FoodProperties.Builder()
+                    .nutrition(10)
                     .saturationModifier(0.8f)
                     .build()
 

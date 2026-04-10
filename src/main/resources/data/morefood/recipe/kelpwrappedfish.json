@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cod","minecraft:salmon","minecraft:kelp"
+  ],
+  "result": {
+    "id": "morefood:kelp_fish",
+    "count": 1
+  }
+}
