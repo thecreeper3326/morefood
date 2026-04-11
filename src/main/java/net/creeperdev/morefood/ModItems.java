@@ -153,13 +153,13 @@ public class ModItems {
     public static final Item COOKED_APPLE = register("cooked_apple", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(8)
-                    .saturationModifier(1f)
+                    .saturationModifier(0.3f)
                     .build()
 
     ));
     public static final Item SALT = register("salt", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(0)
+                    .nutrition(1)
                     .build()
 
 
@@ -167,21 +167,21 @@ public class ModItems {
     public static final Item SANDWICH = register("sandwich", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(10)
-                    .saturationModifier(0.8f)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item KELP_FISH = register("kelp_fish", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(6)
-                    .saturationModifier(0.2f)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
     public static final Item COOKED_KELP_FISH = register("cooked_kelp_fish", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(10)
-                    .saturationModifier(0.8f)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
