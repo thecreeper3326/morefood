@@ -185,6 +185,13 @@ public class ModItems {
                     .build()
 
     ));
+    public static final Item CARAMEL = register("caramel",Item::new,new Item.Properties().food(
+            new FoodProperties.Builder()
+                    .nutrition(3)
+                    .saturationModifier(0.0f)
+                    .alwaysEdible()
+            .build()
+    ));
 
 
 
@@ -222,6 +229,8 @@ public class ModItems {
                 output.accept(ModItems.SANDWICH);
                 output.accept(ModItems.KELP_FISH);
                 output.accept(ModItems.COOKED_KELP_FISH);
+
+                output.accept(ModItems.CARAMEL);
             })
             .build();
 
