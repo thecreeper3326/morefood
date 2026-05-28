@@ -8,7 +8,7 @@
     "title": "We want chocolate!",
     "description": "Craft a chocoalate bar from cocoa and sugar",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

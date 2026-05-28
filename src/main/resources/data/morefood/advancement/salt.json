@@ -8,7 +8,7 @@
     "title": "Sodium",
     "description": "Obtain salt from granite, andesite, or diorite",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

@@ -8,7 +8,7 @@
     "title": "Get roasted",
     "description": "Cook a vegetable skewer with a stick, a potato, and a carrot",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "",
+  "category": "food",
+  "ingredient": "minecraft:sugar",
+  "result": {
+    "id": "morefood:caramel"
+
+  }
+}

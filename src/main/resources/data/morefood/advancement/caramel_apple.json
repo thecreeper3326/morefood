@@ -1,12 +1,12 @@
 {
-  "parent": "morefood:chocolate",
+  "parent": "morefood:caramel",
   "display": {
 
     "icon": {
-      "id": "morefood:chocolate_apple"
+      "id": "morefood:caramel_apple"
     },
-    "title": "A chocolate apple a day...",
-    "description": "Craft a chocoalate apple",
+    "title": "A caramel apple a day...",
+    "description": "Craft a caramel apple",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
@@ -15,7 +15,7 @@
     "weak": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "morefood:chocolate_apple"
+        "recipe_id": "morefood:caramel_apple"
       }
     }
   },

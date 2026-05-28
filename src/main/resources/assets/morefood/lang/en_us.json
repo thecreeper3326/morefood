@@ -21,6 +21,8 @@
 "item.morefood.sandwich": "Sandwich",
 "item.morefood.kelp_fish": "Kelp-wrapped fish",
 "item.morefood.cooked_kelp_fish": "Cooked kelp-wrapped fish",
-"item.morefood.caramel": "Caramel",  
+"item.morefood.caramel": "Caramel",
+"item.morefood.caramel_apple": "Caramel Apple",  
+"item.morefood.apple_pie": "Apple Pie",  
 "item.null.null": "null" 
 } 

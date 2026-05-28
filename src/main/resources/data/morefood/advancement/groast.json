@@ -8,7 +8,7 @@
     "description": "Cook grand roast with salt, meats, and a carrot",
     "background": "minecraft:block/dark_oak_trapdoor",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

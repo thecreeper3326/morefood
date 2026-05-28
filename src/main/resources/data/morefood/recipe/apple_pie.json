@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+
+    "minecraft:apple","minecraft:sugar","minecraft:wheat","minecraft:apple"
+  ],
+  "result": {
+    "id": "morefood:apple_pie"
+  }
+}

@@ -4,7 +4,7 @@
       "id": "morefood:chocolate"
     },
     "title": "MoreFood",
-    "description": "There's a bit more food now!!!!11!11!11!!",
+    "description": "There's a bit more food now...",
     "background": "minecraft:block/dark_oak_trapdoor",
     "show_toast": false,
     "announce_to_chat": false,

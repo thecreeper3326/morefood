@@ -8,7 +8,7 @@
     "title": "New and improved!",
     "description": "Craft a golden chocoalate bar",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

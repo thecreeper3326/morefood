@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "{{NAMESPACE}}:item/{{ID}}"
+    "layer0": "morefood:item/caramel_apple"
   }
 }

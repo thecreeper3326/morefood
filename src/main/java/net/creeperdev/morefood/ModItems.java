@@ -150,6 +150,13 @@ public class ModItems {
                     .build()
 
     ));
+    public static final Item CARAMEL_APPLE = register("caramel_apple", Item::new, new Item.Properties().food(
+            new FoodProperties.Builder()
+                    .nutrition(6)
+                    .saturationModifier(0.6f)
+                    .build()
+
+    ));
     public static final Item COOKED_APPLE = register("cooked_apple", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(8)
@@ -193,6 +200,14 @@ public class ModItems {
             .build()
     ));
 
+    public static final Item APPLE_PIE = register("apple_pie",Item::new,new Item.Properties().food(
+            new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.6f)
+                    .alwaysEdible()
+                    .build()
+    ));
+
 
 
 
@@ -206,6 +221,8 @@ public class ModItems {
                 output.accept(ModItems.GOLDEN_CHOCOLATE);
 
                 output.accept(ModItems.COOKED_APPLE);
+                output.accept(ModItems.CHOCOLATE_APPLE);
+
                 output.accept(ModItems.COOKED_CARROT);
 
                 output.accept(ModItems.MEAT_SKEWER_WEAK);
@@ -224,13 +241,14 @@ public class ModItems {
                 output.accept(ModItems.COOKED_VEG_SKEWER);
 
                 output.accept(ModItems.SALT);
-                output.accept(ModItems.CHOCOLATE_APPLE);
+                output.accept(ModItems.CARAMEL);
+                output.accept(ModItems.CARAMEL_APPLE);
 
                 output.accept(ModItems.SANDWICH);
+                output.accept(ModItems.APPLE_PIE);
                 output.accept(ModItems.KELP_FISH);
                 output.accept(ModItems.COOKED_KELP_FISH);
 
-                output.accept(ModItems.CARAMEL);
             })
             .build();
 
