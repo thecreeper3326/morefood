@@ -199,6 +199,13 @@ public class ModItems {
                     .alwaysEdible()
             .build()
     ));
+    public static final Item CARAMEL_CANDY = register("caramel_candy",Item::new,new Item.Properties().food(
+            new FoodProperties.Builder()
+                    .nutrition(6)
+                    .saturationModifier(0.5f)
+                    .alwaysEdible()
+                    .build()
+    ));
 
     public static final Item APPLE_PIE = register("apple_pie",Item::new,new Item.Properties().food(
             new FoodProperties.Builder()
@@ -242,6 +249,7 @@ public class ModItems {
 
                 output.accept(ModItems.SALT);
                 output.accept(ModItems.CARAMEL);
+                output.accept(ModItems.CARAMEL_CANDY);
                 output.accept(ModItems.CARAMEL_APPLE);
 
                 output.accept(ModItems.SANDWICH);
