@@ -3,16 +3,14 @@
   "id": "morefood",
   "version": "${version}",
   "name": "morefood",
-  "description": "",
+  "description": "Adds various vanilla-style foods to the game",
   "authors": [],
   "contact": {},
   "license": "MIT",
   "icon": "assets/morefood/textures/item/chocoapple.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "net.creeperdev.morefood.client.MorefoodDataGenerator"
-    ],
+
     "client": [
       "net.creeperdev.morefood.client.MorefoodClient"
     ],
@@ -20,16 +18,9 @@
       "net.creeperdev.morefood.Morefood"
     ]
   },
-  "mixins": [
-    "morefood.mixins.json",
-    {
-      "config": "morefood.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "~${minecraft_version}"
   }
 }

@@ -1,7 +1,7 @@
 package net.creeperdev.morefood;
 
-import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.ChatFormatting;
+import net.fabricmc.fabric.api.creativetab.v1.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.component.DataComponents;
@@ -50,13 +50,13 @@ public class ModItems {
     public static final Item CHOCOLATE = register("chocolate", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(4)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.4f)
                     .build())
     );
     public static final Item MEAT_SKEWER_WEAK = register("meat_skewer_weak", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(4)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.3f)
                     .build()
 
     ));
@@ -64,35 +64,35 @@ public class ModItems {
     public static final Item MEAT_SKEWER_MED = register("meat_skewer_med", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(6)
-                    .saturationModifier(0.8f)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
     public static final Item MEAT_SKEWER_STRONG = register("meat_skewer_strong", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(8)
-                    .saturationModifier(1f)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_WEAK = register("cooked_meat_skewer_weak", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(0.6f)
+                    .nutrition(6)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_MED = register("cooked_meat_skewer_med", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(12)
-                    .saturationModifier(0.8f)
+                    .nutrition(8)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_STRONG = register("cooked_meat_skewer_strong", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(1f)
+                    .nutrition(12)
+                    .saturationModifier(0.6f)
                     .build()
 
     ));
@@ -145,15 +145,15 @@ public class ModItems {
     ));
     public static final Item CHOCOLATE_APPLE = register("chocolate_apple", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(0.6f)
+                    .nutrition(6)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item CARAMEL_APPLE = register("caramel_apple", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(6)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
@@ -215,16 +215,18 @@ public class ModItems {
                     .build()
     ));
 
+    public static final ResourceKey<CreativeModeTab> MOREFOOD_KEY = ResourceKey.create(
+        Registries.CREATIVE_MODE_TAB,
+        Identifier.fromNamespaceAndPath("morefood", "morefood")
+    );
+
+public static final CreativeModeTab MOREFOOD = CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
+        .icon(() -> new ItemStack(ModItems.CHOCOLATE))
+        .title(Component.translatable("itemGroup.morefood"))
+        .displayItems((params, output) -> {
+            output.accept(ModItems.CHOCOLATE);
 
 
-
-    public static final ResourceKey<CreativeModeTab> MOREFOOD_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath("morefood", "morefood"));
-    public static final CreativeModeTab MOREFOOD = FabricCreativeModeTab.builder()
-            .icon(() -> new ItemStack(ModItems.CHOCOLATE))
-            .title(Component.translatable("itemGroup.morefood"))
-            .displayItems((params, output) -> {
-
-                output.accept(ModItems.CHOCOLATE);
                 output.accept(ModItems.GOLDEN_CHOCOLATE);
 
                 output.accept(ModItems.COOKED_APPLE);
