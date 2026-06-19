@@ -35,8 +35,7 @@ public class ModItems {
         Registry.register(BuiltInRegistries.ITEM, itemKey, item);
 
         return item;
-    }
-    public static final Consumable GOLD_ROAST_COM = Consumables.defaultFood()
+    } public static final Consumable GOLD_ROAST_COM = Consumables.defaultFood()
 
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 6 * 20, 0), 1.0f))
             .build();
@@ -50,13 +49,13 @@ public class ModItems {
     public static final Item CHOCOLATE = register("chocolate", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(4)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.4f)
                     .build())
     );
     public static final Item MEAT_SKEWER_WEAK = register("meat_skewer_weak", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(4)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.3f)
                     .build()
 
     ));
@@ -64,35 +63,35 @@ public class ModItems {
     public static final Item MEAT_SKEWER_MED = register("meat_skewer_med", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(6)
-                    .saturationModifier(0.8f)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
     public static final Item MEAT_SKEWER_STRONG = register("meat_skewer_strong", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(8)
-                    .saturationModifier(1f)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_WEAK = register("cooked_meat_skewer_weak", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(0.6f)
+                    .nutrition(6)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_MED = register("cooked_meat_skewer_med", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(12)
-                    .saturationModifier(0.8f)
+                    .nutrition(8)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_STRONG = register("cooked_meat_skewer_strong", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(1f)
+                    .nutrition(12)
+                    .saturationModifier(0.6f)
                     .build()
 
     ));
@@ -145,15 +144,15 @@ public class ModItems {
     ));
     public static final Item CHOCOLATE_APPLE = register("chocolate_apple", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(0.6f)
+                    .nutrition(6)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
     public static final Item CARAMEL_APPLE = register("caramel_apple", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(6)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
@@ -197,7 +196,7 @@ public class ModItems {
                     .nutrition(3)
                     .saturationModifier(0.0f)
                     .alwaysEdible()
-            .build()
+                    .build()
     ));
     public static final Item CARAMEL_CANDY = register("caramel_candy",Item::new,new Item.Properties().food(
             new FoodProperties.Builder()
@@ -214,7 +213,6 @@ public class ModItems {
                     .alwaysEdible()
                     .build()
     ));
-
 
 
 
