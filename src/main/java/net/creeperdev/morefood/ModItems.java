@@ -37,7 +37,7 @@ public class ModItems {
         return item;
     }
     public static final Consumable GOLD_ROAST_COM = Consumables.defaultFood()
-
+            .consumeSeconds(3)
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 6 * 20, 0), 1.0f))
             .build();
     public static final FoodProperties GOLD_ROAST_PRO = new FoodProperties.Builder()
@@ -56,7 +56,7 @@ public class ModItems {
     public static final Item MEAT_SKEWER_WEAK = register("meat_skewer_weak", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(4)
-                    .saturationModifier(0.3f)
+                    .saturationModifier(0.2f)
                     .build()
 
     ));
@@ -64,14 +64,14 @@ public class ModItems {
     public static final Item MEAT_SKEWER_MED = register("meat_skewer_med", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(6)
-                    .saturationModifier(0.4f)
+                    .saturationModifier(0.2f)
                     .build()
 
     ));
     public static final Item MEAT_SKEWER_STRONG = register("meat_skewer_strong", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(8)
-                    .saturationModifier(0.5f)
+                    .saturationModifier(0.2f)
                     .build()
 
     ));
@@ -85,14 +85,14 @@ public class ModItems {
     public static final Item COOKED_MEAT_SKEWER_MED = register("cooked_meat_skewer_med", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(8)
-                    .saturationModifier(0.5f)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
     public static final Item COOKED_MEAT_SKEWER_STRONG = register("cooked_meat_skewer_strong", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(12)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.4f)
                     .build()
 
     ));
@@ -127,7 +127,7 @@ public class ModItems {
     public static final Item COOKED_GRAND_ROAST = register("cooked_grand_roast", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
                     .nutrition(16)
-                    .saturationModifier(0.8f)
+                    .saturationModifier(0.5f)
                     .build()
 
     ));
@@ -137,7 +137,7 @@ public class ModItems {
 
     public static final Item GOLDEN_CHOCOLATE = register("golden_chocolate", Item::new, new Item.Properties().food(
             new FoodProperties.Builder()
-                    .nutrition(14)
+                    .nutrition(6)
                     .alwaysEdible()
                     .saturationModifier(0.8f)
                     .build()
